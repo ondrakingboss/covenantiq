@@ -8,7 +8,7 @@ CovenantIQ is a portfolio and educational project built to demonstrate how finan
 
 ![CovenantIQ analysis workspace](docs/assets/analysis-workspace.png)
 
-[View the 90-second demo script](docs/demo-script.md) · [Read the one-page brief](docs/project-brief.md) · [Open the sample IC memo](docs/sample_outputs/ironbridge_ic_memo.html) · **Live demo: not deployed yet**
+[Open the live application](https://covenantiq-eight.vercel.app/) · [Check backend health](https://covenantiq-api.onrender.com/health) · [View the 90-second demo script](docs/demo-script.md) · [Read the one-page brief](docs/project-brief.md) · [Open the sample IC memo](docs/sample_outputs/ironbridge_ic_memo.html)
 
 `Next.js 16` · `TypeScript` · `Tailwind CSS` · `Recharts` · `FastAPI` · `Pydantic` · `SQLite` · `Pytest`
 
