@@ -1,0 +1,62 @@
+[
+  {
+    "id": "northstar-cloud", "name": "Northstar Cloud", "industry": "Vertical SaaS",
+    "profile": "Growing recurring-revenue software company with meaningful stock-based compensation and improving cash conversion.",
+    "risk_summary": "Growth is strong, but current cash generation and adjusted EBITDA quality require monitoring.",
+    "years": ["FY2023A", "FY2024A", "FY2025A", "FY2026E", "FY2027E", "FY2028E"],
+    "revenue": [138, 171, 211, 254, 300, 348], "ebitda_margin": [0.06, 0.08, 0.11, 0.145, 0.18, 0.21],
+    "depreciation_pct": 0.035, "cash": [18, 21, 25, 29, 36, 48], "ar_days": [62, 60, 58, 56, 54, 52],
+    "inventory_days": [0, 0, 0, 0, 0, 0], "other_current_assets_pct": 0.08, "current_liabilities_pct": [0.20, 0.20, 0.19, 0.19, 0.18, 0.18],
+    "debt": [52, 60, 68, 62, 54, 44], "lease_liabilities": [8, 9, 10, 11, 12, 12], "interest_rate": [0.075, 0.076, 0.078, 0.077, 0.076, 0.075],
+    "tax_rate": 0.24, "ocf_margin": [0.03, 0.04, 0.055, 0.08, 0.11, 0.14], "capex_pct": [0.035, 0.032, 0.030, 0.028, 0.026, 0.025],
+    "mandatory_amortization": [4, 5, 6, 6, 8, 10]
+  },
+  {
+    "id": "alder-manufacturing", "name": "Alder Manufacturing", "industry": "Industrial Manufacturing",
+    "profile": "Stable producer of engineered industrial assemblies with secured facilities and a broad customer base.",
+    "risk_summary": "Moderate margins and capital intensity create sensitivity to industrial demand cycles.",
+    "years": ["FY2023A", "FY2024A", "FY2025A", "FY2026E", "FY2027E", "FY2028E"],
+    "revenue": [420, 438, 452, 465, 484, 503], "ebitda_margin": [0.142, 0.146, 0.144, 0.145, 0.147, 0.149],
+    "depreciation_pct": 0.045, "cash": [24, 27, 29, 31, 34, 38], "ar_days": [49, 48, 48, 47, 47, 46],
+    "inventory_days": [72, 70, 69, 68, 67, 66], "other_current_assets_pct": 0.035, "current_liabilities_pct": [0.25, 0.24, 0.24, 0.235, 0.23, 0.23],
+    "debt": [138, 132, 124, 114, 102, 88], "lease_liabilities": [14, 14, 13, 13, 12, 11], "interest_rate": [0.068, 0.071, 0.073, 0.072, 0.070, 0.068],
+    "tax_rate": 0.25, "ocf_margin": [0.095, 0.102, 0.098, 0.103, 0.108, 0.112], "capex_pct": [0.061, 0.058, 0.060, 0.058, 0.056, 0.054],
+    "mandatory_amortization": [10, 10, 10, 10, 12, 14]
+  },
+  {
+    "id": "meridian-retail", "name": "Meridian Retail", "industry": "Specialty Retail",
+    "profile": "Multi-location specialty retailer with seasonal inventory builds and a substantial leased store base.",
+    "risk_summary": "Thin margins, lease-adjusted leverage, and working-capital seasonality constrain flexibility.",
+    "years": ["FY2023A", "FY2024A", "FY2025A", "FY2026E", "FY2027E", "FY2028E"],
+    "revenue": [610, 642, 665, 688, 716, 744], "ebitda_margin": [0.082, 0.086, 0.083, 0.084, 0.087, 0.089],
+    "depreciation_pct": 0.038, "cash": [31, 35, 33, 36, 40, 44], "ar_days": [8, 8, 8, 8, 8, 8],
+    "inventory_days": [96, 99, 103, 100, 98, 96], "other_current_assets_pct": 0.025, "current_liabilities_pct": [0.31, 0.31, 0.32, 0.31, 0.30, 0.30],
+    "debt": [156, 151, 148, 139, 128, 115], "lease_liabilities": [205, 212, 220, 225, 228, 230], "interest_rate": [0.070, 0.073, 0.075, 0.074, 0.072, 0.070],
+    "tax_rate": 0.24, "ocf_margin": [0.055, 0.059, 0.052, 0.057, 0.061, 0.064], "capex_pct": [0.032, 0.034, 0.035, 0.033, 0.032, 0.031],
+    "mandatory_amortization": [12, 12, 12, 12, 12, 13]
+  },
+  {
+    "id": "vantage-services", "name": "Vantage Services", "industry": "Business Services",
+    "profile": "Asset-light compliance-services platform with strong margins and acquisition-led expansion.",
+    "risk_summary": "Cash generation is strong, offset by customer concentration and acquisition-related debt.",
+    "years": ["FY2023A", "FY2024A", "FY2025A", "FY2026E", "FY2027E", "FY2028E"],
+    "revenue": [248, 275, 306, 332, 359, 385], "ebitda_margin": [0.238, 0.246, 0.253, 0.258, 0.262, 0.265],
+    "depreciation_pct": 0.022, "cash": [22, 26, 32, 40, 51, 65], "ar_days": [57, 55, 53, 52, 50, 49],
+    "inventory_days": [0, 0, 0, 0, 0, 0], "other_current_assets_pct": 0.045, "current_liabilities_pct": [0.18, 0.18, 0.175, 0.17, 0.17, 0.165],
+    "debt": [164, 157, 147, 134, 118, 99], "lease_liabilities": [11, 12, 12, 13, 13, 13], "interest_rate": [0.072, 0.074, 0.075, 0.074, 0.071, 0.068],
+    "tax_rate": 0.25, "ocf_margin": [0.175, 0.184, 0.192, 0.198, 0.205, 0.212], "capex_pct": [0.018, 0.017, 0.016, 0.016, 0.015, 0.015],
+    "mandatory_amortization": [10, 10, 12, 13, 16, 19]
+  },
+  {
+    "id": "ironbridge-components", "name": "Ironbridge Components", "industry": "Automotive Components",
+    "profile": "Distressed components supplier facing customer losses, pricing pressure, and underutilized plants.",
+    "risk_summary": "Declining revenue, margin compression, weak liquidity, and high leverage create near-term breach risk.",
+    "years": ["FY2023A", "FY2024A", "FY2025A", "FY2026E", "FY2027E", "FY2028E"],
+    "revenue": [390, 365, 332, 314, 306, 310], "ebitda_margin": [0.105, 0.082, 0.057, 0.048, 0.052, 0.060],
+    "depreciation_pct": 0.055, "cash": [18, 13, 9, 7, 7, 9], "ar_days": [61, 65, 70, 72, 71, 68],
+    "inventory_days": [82, 88, 96, 99, 96, 91], "other_current_assets_pct": 0.025, "current_liabilities_pct": [0.32, 0.35, 0.39, 0.41, 0.40, 0.38],
+    "debt": [182, 188, 194, 190, 184, 174], "lease_liabilities": [22, 23, 24, 24, 23, 22], "interest_rate": [0.081, 0.089, 0.097, 0.103, 0.105, 0.101],
+    "tax_rate": 0.22, "ocf_margin": [0.052, 0.035, 0.012, 0.005, 0.012, 0.022], "capex_pct": [0.050, 0.047, 0.043, 0.039, 0.037, 0.036],
+    "mandatory_amortization": [9, 9, 10, 11, 12, 13]
+  }
+]

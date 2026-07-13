@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { background: #f4f5f2; }
+body { margin: 0; color: #14232c; background: #f4f5f2; font-variant-numeric: tabular-nums; }
+a { color: inherit; text-decoration: none; }
+button, input, select { font: inherit; }
+button:active { transform: translateY(1px); }
+::selection { background: #b9d0ca; }
+.data-table { width: 100%; border-collapse: collapse; min-width: 720px; }
+.data-table th { padding: .65rem .75rem; border-bottom: 1px solid #9ba9ad; color: #59686e; font: 600 .68rem ui-monospace, monospace; letter-spacing: .06em; text-transform: uppercase; text-align: right; }
+.data-table td { padding: .68rem .75rem; border-bottom: 1px solid #d7dddc; text-align: right; font-size: .82rem; }
+.data-table th:first-child, .data-table td:first-child { position: sticky; left: 0; background: #f4f5f2; text-align: left; z-index: 1; }
+.data-table tbody tr:hover td { background-color: #edf1ee; }
+.data-table tbody tr:hover td:first-child { background-color: #edf1ee; }
+.metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid #aeb9bb; border-left: 1px solid #aeb9bb; }
+.metric-grid > * { border-right: 1px solid #aeb9bb; border-bottom: 1px solid #aeb9bb; }
+@media (max-width: 900px) { .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 540px) { .metric-grid { grid-template-columns: 1fr; } }
+@page { size: A4; margin: 14mm; }
+@media print { .no-print { display: none !important; } html, body { background: white; } body { color: #111; -webkit-print-color-adjust: exact; print-color-adjust: exact; } main { max-width: none !important; padding: 0 !important; } h1, h2, h3 { break-after: avoid; } table { break-inside: auto; } thead { display: table-header-group; } tr, details, .metric-grid > * { break-inside: avoid; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; } }
