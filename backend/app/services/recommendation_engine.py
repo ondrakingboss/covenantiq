@@ -6,8 +6,8 @@ from app.models.domain import (
 
 
 DISCLAIMER = (
-    "Preliminary rules-based output for an educational portfolio project. It does not replace "
-    "professional credit judgment and is not lending, investment, or financial advice."
+    "CovenantIQ is a public beta using sample borrower data. Outputs are for product demonstration "
+    "and education only and do not constitute lending, investment, legal, accounting, or financial advice."
 )
 
 

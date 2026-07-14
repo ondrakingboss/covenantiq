@@ -15,7 +15,7 @@ export default function BorrowersPage() {
   const load = () => { setLoading(true); setError(""); getBorrowers().then(setItems).catch(e => setError(e.message)).finally(() => setLoading(false)); };
   useEffect(load, []);
   return <main className="mx-auto max-w-[1500px] px-5 py-10 lg:px-8 lg:py-14">
-    <div className="mb-10 max-w-2xl"><p className="font-mono text-xs uppercase tracking-[.12em] text-accent">Borrower universe</p><h1 className="mt-3 text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Select a credit file</h1><p className="mt-4 text-ink/65">Five fictional borrowers span growth, stable, cyclical, asset-light, and distressed credit profiles.</p></div>
+    <div className="mb-10 max-w-2xl"><p className="font-mono text-xs uppercase tracking-[.12em] text-accent">Sample borrower files</p><h1 className="mt-3 text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Select a credit file</h1><p className="mt-4 text-ink/65">Sample borrower files span growth, stable, cyclical, asset-light, and distressed credit profiles for structured credit review.</p></div>
     {loading && <div className="grid gap-px bg-ink/15 border border-ink/15 lg:grid-cols-2">{[1,2,3,4].map(x=><div key={x} className="h-56 animate-pulse bg-paper p-6"><div className="h-5 w-1/2 bg-ink/10"/></div>)}</div>}
     {error && <div className="border border-risk/40 bg-risk/5 p-6"><p className="font-semibold text-risk">Could not reach the analysis API</p><p className="mt-2 text-sm text-ink/70">{error}</p><Button variant="outline" onClick={load} className="mt-4"><RefreshCw className="h-4 w-4"/>Retry</Button></div>}
     {!loading && !error && <div className="grid gap-px border border-ink/20 bg-ink/20 lg:grid-cols-2">

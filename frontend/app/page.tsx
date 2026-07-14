@@ -14,7 +14,7 @@ export default function Landing() {
           <p className="mb-6 font-mono text-xs font-semibold uppercase tracking-[.14em] text-accent">Deterministic private-credit workbench</p>
           <h1 className="max-w-3xl text-5xl font-semibold leading-[.96] tracking-[-.055em] sm:text-6xl xl:text-7xl">Credit conclusions you can trace.</h1>
           <p className="mt-7 max-w-[56ch] text-lg leading-relaxed text-ink/70">Structure debt, stress operating cases, test covenants, and produce a preliminary credit memo from deterministic calculations.</p>
-          <div className="mt-9 flex flex-wrap items-center gap-6"><Link href="/borrowers" className="group inline-flex h-12 items-center gap-8 rounded-[3px] bg-navy px-5 font-semibold text-white transition-colors hover:bg-ink">Start analysis <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></Link><Link href="/demos" className="border-b border-accent pb-1 text-sm font-semibold text-accent">Take the guided tour</Link></div>
+          <div className="mt-9 flex flex-wrap items-center gap-6"><Link href="/borrowers" className="group inline-flex h-12 items-center gap-8 rounded-[3px] bg-navy px-5 font-semibold text-white transition-colors hover:bg-ink">Start analysis <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></Link><Link href="/demos" className="border-b border-accent pb-1 text-sm font-semibold text-accent">Open guided workflows</Link></div>
         </div>
         <div className="relative flex items-end overflow-hidden border-t border-ink/20 bg-navy p-6 text-white lg:border-l lg:border-t-0 lg:p-10">
           <div className="absolute inset-0 opacity-15" style={{backgroundImage:"linear-gradient(#fff 1px, transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px)",backgroundSize:"48px 48px"}} />
@@ -28,6 +28,6 @@ export default function Landing() {
     <section className="mx-auto grid max-w-[1500px] border-x border-ink/15 md:grid-cols-3">
       {principles.map(({ Icon, title, body }, i) => <article key={title} className={`border-ink/15 p-8 lg:p-12 ${i < 2 ? "border-b md:border-b-0 md:border-r" : ""}`}><Icon className="mb-10 h-6 w-6 text-accent"/><h2 className="text-2xl font-semibold tracking-tight">{title}</h2><p className="mt-3 max-w-[38ch] text-sm leading-relaxed text-ink/65">{body}</p></article>)}
     </section>
-    <footer className="border-t border-ink/15 px-6 py-6 text-center text-xs leading-relaxed text-ink/55">Educational portfolio project only. CovenantIQ does not provide lending, investment, legal, accounting, or financial advice.</footer>
+    <footer className="border-t border-ink/15 px-6 py-8 text-center text-xs leading-relaxed text-ink/55">CovenantIQ is a public beta using sample borrower data. Outputs are for product demonstration and education only and do not constitute lending, investment, legal, accounting, or financial advice.</footer>
   </main>;
 }
