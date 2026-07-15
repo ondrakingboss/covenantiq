@@ -4,7 +4,7 @@
 
 **CovenantIQ is a deterministic private-credit analysis platform that models multi-tranche debt, quarterly covenant compliance, downside sensitivity, saved deal structures, and investment-committee memo generation.**
 
-CovenantIQ is a portfolio and educational project built to demonstrate how finance logic, product design, and full-stack engineering can meet in one auditable workflow. Python calculates every balance, ratio, covenant result, sensitivity cell, comparison score, and recommendation. No LLM or external AI API performs financial calculations.
+CovenantIQ is a public-beta portfolio and educational project using sample borrower data to demonstrate how finance logic, product design, and full-stack engineering can meet in one auditable workflow. Python calculates every balance, ratio, covenant result, sensitivity cell, comparison score, and recommendation. No LLM or external AI API performs financial calculations.
 
 ![CovenantIQ analysis workspace](docs/assets/analysis-workspace.png)
 
@@ -155,6 +155,7 @@ SQLite is not appropriate for a serverless or ephemeral backend filesystem. Run 
 
 ## Documentation
 
+- [Public launch package](docs/launch-package.md)
 - [Demo script](docs/demo-script.md)
 - [One-page project brief](docs/project-brief.md)
 - [Portfolio talking points](docs/portfolio-talking-points.md)
